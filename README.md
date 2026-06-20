@@ -26,10 +26,11 @@ Welcome to my GitHub! I enjoy transforming raw, messy data into meaningful insig
 
 *   **[AirScience: Flight Ticket Price Prediction](https://github.com/AnhThy3447/AirScience_DS108)** ✈️
 
-An end-to-end ML system predicting flight prices in Vietnam using a custom Selenium scraping pipeline (46k+ records) and Gradient Boosting. Designed a dynamic "Buy/Wait" recommendation engine.
+Designed an end-to-end data pipeline and predictive system to optimize flight ticket purchasing budgets in the volatile Vietnamese market. The project implements a scalable Medallion Architecture (Bronze, Silver, Gold layers) to clean and structure dynamic airfare data scraped via Selenium. By modeling price trends with Gradient Boosting, the system powers an web application that automatically calculates optimal pricing thresholds to deliver smart "Buy" or "Wait" budget recommendations.
+
 *   **[IT Job Market Analysis (HCMC & Hanoi)](https://github.com/AnhThy3447/itviec_job_market_analysis_IS403)** 💼
 
-Built an analytical and forecasting solution to map tech recruitment trends across Vietnam's two major tech hubs. The project identifies shifting tech stack demands and discovers hidden skill co-occurrences, providing valuable market insights for both tech job seekers and recruiters.
+Developed an end-to-end business intelligence and predictive analytics platform to decode the IT recruitment landscape in Vietnam. The project utilizes an LLM-enriched pipeline organized under the Medallion Architecture and structured into a Star Schema via SSIS. Through extensive Exploratory Data Analysis (EDA) and interactive Power BI dashboards, the system uncovers structural regional shifts, tech stack synergies (via Apriori mining), and the market's absorption of AI skills, while leveraging time-series forecasting to predict short-term technology demands.
 
 *   **[Restaurant Review Sentiment & Aspect Analysis](https://github.com/AnhThy3447/Review_sentiment_analysis_DS304)** 🍽️
 
