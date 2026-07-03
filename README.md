@@ -26,7 +26,7 @@ Welcome to my GitHub! I enjoy transforming raw, messy data into meaningful insig
 
 *   **[AirScience: Flight Ticket Price Prediction](https://github.com/AnhThy3447/AirScience_DS108)** ✈️
 
-Designed an end-to-end data pipeline and predictive system to optimize flight ticket purchasing budgets in the volatile Vietnamese market. The project implements a scalable Medallion Architecture (Bronze, Silver, Gold layers) to clean and structure dynamic airfare data scraped via Selenium. By modeling price trends with Gradient Boosting, the system powers an web application that automatically calculates optimal pricing thresholds to deliver smart "Buy" or "Wait" budget recommendations.
+Built a scalable predictive platform utilizing a Medallion Architecture (Bronze, Silver, Gold layers) to help users optimize travel budgets against volatile Vietnamese airfares. The system automates dynamic data collection via Selenium and structures raw inputs into analytics-ready layers. By modeling price trends with Gradient Boosting, the system powers an web application that automatically calculates optimal pricing thresholds to deliver smart "Buy" or "Wait" budget recommendations.
 
 *   **[IT Job Market Analysis (HCMC & Hanoi)](https://github.com/AnhThy3447/itviec_job_market_analysis_IS403)** 💼
 
@@ -39,3 +39,7 @@ Developed a fine-grained aspect-based sentiment analysis (ABSA) system to help r
 *   **[Vietnamese Narrative Coreference Resolution](https://github.com/dbthyy/viet_bio_coref)** 📖
 
 Built an end-to-end NLP pipeline to solve coreference resolution in Vietnamese narrative texts. The system addresses the challenge of tracking characters and entities across complex stories by combining a Transformer-based mention detection module (BIO tagging) with a pairwise classification model and Union-Find clustering, effectively linking scattered entity mentions into unified, coherent identity chains.
+
+*   **[Reproducing and Improving Respiratory Acoustic Diagnostics for COVID-19](https://github.com/dbthyy/med-audio-synthetic-augmentation)** 🫁
+
+Built a Deep Learning framework to handle data scarcity and class imbalance in automated respiratory disease screening from the Coswara dataset. The system uses VAEs, WGAN-GP, and DDPM Diffusion models to create synthetic Log-Mel Spectrograms, applying Fréchet Audio Distance (FAD) to control generation quality. A modified EfficientNet-B0 network is then trained on this augmented data, optimized by an Ensemble Strategy to improve final diagnostic accuracy.
